@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Simple To-Do</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --purple: #6360d4; --text: #1a1a1a; --muted: #888; --border: #e8e8e8; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: #fff; -webkit-font-smoothing: antialiased; }
+
+    nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 22px 48px; border-bottom: 1px solid var(--border);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-icon { width: 28px; height: 28px; background: var(--purple); border-radius: 7px; display: flex; align-items: center; justify-content: center; }
+    .nav-icon svg { width: 16px; height: 16px; }
+    .nav-name { font-size: 15px; font-weight: 500; color: var(--text); }
+    .nav-back { font-size: 14px; color: var(--muted); text-decoration: none; }
+    .nav-back:hover { color: var(--text); }
+
+    main { max-width: 680px; margin: 64px auto; padding: 0 24px 80px; }
+
+    h1 { font-family: 'Fraunces', serif; font-size: 36px; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 8px; }
+    .meta { font-size: 13px; color: #bbb; margin-bottom: 48px; }
+    h2 { font-size: 15px; font-weight: 500; margin: 36px 0 8px; color: var(--text); }
+    p, li { font-size: 15px; color: #444; line-height: 1.7; }
+    ul { padding-left: 20px; }
+    ul li { margin-bottom: 4px; }
+    code { font-size: 13px; background: #f5f5f5; padding: 2px 6px; border-radius: 4px; }
+    a { color: var(--purple); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    footer { border-top: 1px solid var(--border); padding: 24px 48px; text-align: center; }
+    footer p { font-size: 13px; color: #bbb; }
+    @media (max-width: 600px) { nav { padding: 18px 24px; } footer { padding: 24px; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="index.html">
+      <div class="nav-icon">
+        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="3" y1="5" x2="13" y2="5" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="3" y1="8" x2="13" y2="8" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="3" y1="11" x2="9"  y2="11" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="nav-name">Simple To-Do</span>
+    </a>
+    <a class="nav-back" href="index.html">← Back</a>
+  </nav>
+
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Simple To-Do Chrome Extension &nbsp;·&nbsp; Last updated: June 2026</p>
+
+    <h2>Overview</h2>
+    <p>Simple To-Do is a browser extension that helps you manage a personal task list. We are committed to protecting your privacy. This policy explains what data the extension handles and how.</p>
+
+    <h2>Data we collect</h2>
+    <p><strong>None.</strong> Simple To-Do does not collect, transmit, or share any personal data. The extension has no analytics, no tracking, and no network requests of any kind.</p>
+
+    <h2>Data stored on your device</h2>
+    <p>Your tasks are saved in your browser's <code>localStorage</code> — stored locally on your device only. This data:</p>
+    <ul>
+      <li>Never leaves your browser</li>
+      <li>Is never sent to any server</li>
+      <li>Is never shared with any third party</li>
+      <li>Can be cleared at any time by removing the extension or clearing your browser's local storage</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <p>Simple To-Do requests no special browser permissions. It does not access your browsing history, tabs, cookies, or any other browser data.</p>
+
+    <h2>Third parties</h2>
+    <p>Simple To-Do does not integrate with any third-party services, APIs, or SDKs.</p>
+
+    <h2>Children's privacy</h2>
+    <p>Simple To-Do does not knowingly collect any information from anyone, including children under 13.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the updated version will be posted at this URL with a revised date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? Reach us at: <a href="mailto:your@email.com">your@email.com</a></p>
+  </main>
+
+  <footer>
+    <p>© 2026 Simple To-Do</p>
+  </footer>
+
+</body>
+</html>
